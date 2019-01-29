@@ -1,0 +1,31 @@
+Array
+(
+    [0] => Array
+        (
+            [name] => Rafaela Dietrich
+            [email] => kerluke.carmine@quitzon.com
+            [state] => Mississippi
+        )
+
+    [1] => Array
+        (
+            [name] => Kristin O'Hara
+            [email] => lkonopelski@yahoo.com
+            [state] => Tennessee
+        )
+
+    [2] => Array
+        (
+            [name] => Earl Dare
+            [email] => mgoldner@gmail.com
+            [state] => Montana
+        )
+
+    [3] => Array
+        (
+            [name] => Cristian Reinger
+            [email] => madaline36@grimes.com
+            [state] => Colorado
+        )
+
+)
