@@ -1,14 +1,7 @@
 <?php
 
+require "fakerFactory.php";
 
+$data = fakerGenerate(4);
+print_r(($data[0])) ;
 
-
-
-
-
-/*for future to not forget
-print_r(array_keys($data[0])) ;
-
-foreach (array_keys($data[0]) as $array_key){
-    echo $array_key;
-}*/
