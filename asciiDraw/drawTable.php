@@ -58,10 +58,12 @@ function drawTypes ($data)
      $i=0;
     foreach (array_keys($data[0]) as $key) {
         //data types center
+        $repeater = str_repeat(" ",floor(($max[$i]-strlen($key))/2));
         if(($max[$i]-strlen($key)) % 2 == 0){
-            echo "| ". str_repeat(" ",($max[$i]-strlen($key))/2). $key . str_repeat(" ",($max[$i]-strlen($key))/2). " ";
+
+            echo "| ". $repeater . $key . $repeater . " ";
         }else{
-            echo "|  ". str_repeat(" ",floor(($max[$i]-strlen($key))/2)). $key . str_repeat(" ",floor(($max[$i]-strlen($key))/2)) . " ";
+            echo "|  ". $repeater. $key . $repeater . " ";
         }
         $i++;
     }
