@@ -2,7 +2,7 @@
 //faker data
 require "fakerFactory.php";
 
-$data = fakerGenerate(10);
+$data = fakerGenerate(4);
 
 //constants
 const Line_corner = "+";
@@ -57,7 +57,12 @@ function drawTypes ($data)
     //Data type
      $i=0;
     foreach (array_keys($data[0]) as $key) {
-        echo "| " . $key . str_repeat(" ",($max[$i]-strlen($key))). " ";
+        if($max[$i] % 2 == 0){
+            echo "| ". str_repeat(" ",($max[$i]-strlen($key)+1)/2). $key . str_repeat(" ",($max[$i]-strlen($key)+1)/2). " ";
+        }else{
+            echo "| ". str_repeat(" ",($max[$i]-strlen($key))/2). $key . str_repeat(" ",($max[$i]-strlen($key))/2). " ";
+        }
+
         $i++;
     }
     echo " ". Line_row_end . Line_endline;
