@@ -3,9 +3,14 @@
 require "fakerFactory.php";
 
 $data = fakerGenerate(10);
+
+//constants
 const Line_corner = "+";
 const Line_endline = PHP_EOL;
 const Line_row_end = "|";
+
+
+//data types length name, email ,etc.
 function maxHeadLengths ($data)
 {
     $head = [];
@@ -16,6 +21,7 @@ function maxHeadLengths ($data)
     return $head;
 }
 
+//max for each name, email , etc.
 function maxDataLengths ($data)
 {
     $head = maxHeadLengths($data);
@@ -24,7 +30,7 @@ function maxDataLengths ($data)
         $lengths = array_map('strlen', array_column($data, $array_key));
         array_push($maxData, max($lengths));
     }
-    //data length compare to data names
+    //data all length compare to data types
     for ($i = 0; $i < sizeof($maxData); $i++) {
         if ($maxData[$i] < $head[$i]) {
             $maxData[$i] = $head[$i];
@@ -32,7 +38,7 @@ function maxDataLengths ($data)
     }
     return $maxData;
 }
-
+//draw +------------+ top and bottom, middle
 function drawSeparationLines($data){
 //Top Line
     $max = maxDataLengths($data);
@@ -44,6 +50,7 @@ function drawSeparationLines($data){
     //Top Line end
 }
 
+//draw name, email, etc. lines.
 function drawTypes ($data)
 {
     $max = maxDataLengths($data);
@@ -55,7 +62,7 @@ function drawTypes ($data)
     }
     echo " ". Line_row_end . Line_endline;
 }
-
+//draw all data names, email, etc.
 function drawAllData($data){
 
     $max = maxDataLengths($data);
@@ -71,7 +78,7 @@ function drawAllData($data){
     }
 }
 
-
+//order of everything
 function DrawEverything($data){
     drawSeparationLines($data);
     drawTypes($data);
@@ -79,5 +86,5 @@ function DrawEverything($data){
     drawAllData($data);
     drawSeparationLines($data);
 }
-
+//this function getting called here.
 DrawEverything($data);
