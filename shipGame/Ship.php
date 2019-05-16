@@ -2,7 +2,7 @@
 
 require ("Generate.php");
 
-class Ship_game extends Generate
+class Ship extends Generate
 {
 
     public function player_grid (array $data,$type)
@@ -93,7 +93,7 @@ class Ship_game extends Generate
 }
 
 
-$player_enemy = new Ship_game();
+$player_enemy = new Ship();
 $gen = new Generate();
 
 echo "Enemy grid\n";

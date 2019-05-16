@@ -2,7 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="068be049-608b-4e31-be1a-5bd784f60ac4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Hangman/Hangman.php" beforeDir="false" afterPath="$PROJECT_DIR$/Hangman/Hangman.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hangman/.idea/Hangman.iml" beforeDir="false" afterPath="$PROJECT_DIR$/hangman/.idea/Hangman.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hangman/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hangman/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hangman/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hangman/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hangman/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hangman/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hangman/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hangman/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hangman/Hangman.php" beforeDir="false" afterPath="$PROJECT_DIR$/hangman/Hangman.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hangman/Word.php" beforeDir="false" afterPath="$PROJECT_DIR$/hangman/Word.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hangman/wordlist.txt" beforeDir="false" afterPath="$PROJECT_DIR$/hangman/wordlist.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shipGame/Ship.php" beforeDir="false" afterPath="$PROJECT_DIR$/shipGame/Ship.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,7 +27,7 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Hangman/wordlist.txt">
+        <entry file="file://$PROJECT_DIR$/hangman/wordlist.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="544">
               <caret line="32" column="5" lean-forward="true" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
@@ -26,17 +35,35 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Hangman/Hangman.php">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hangman/Hangman.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="42" column="36" lean-forward="true" selection-start-line="42" selection-start-column="36" selection-end-line="42" selection-end-column="36" />
+            <state relative-caret-position="187">
+              <caret line="11" column="36" lean-forward="true" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/shipGame/Ship.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="610">
+              <caret line="94" lean-forward="true" selection-start-line="94" selection-end-line="94" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Hangman/Word.php">
+        <entry file="file://$PROJECT_DIR$/shipGame/Generate.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="40" lean-forward="true" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hangman/Word.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
               <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
@@ -54,6 +81,8 @@
       <list>
         <option value="$PROJECT_DIR$/Hangman/Word.php" />
         <option value="$PROJECT_DIR$/Hangman/Hangman.php" />
+        <option value="$PROJECT_DIR$/hangman/Hangman.php" />
+        <option value="$PROJECT_DIR$/shipGame/Ship.php" />
       </list>
     </option>
   </component>
@@ -91,17 +120,7 @@
             <path>
               <item name="php_games" type="b2602c69:ProjectViewProjectNode" />
               <item name="php_games" type="462c0819:PsiDirectoryNode" />
-              <item name="asciiDraw" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="php_games" type="b2602c69:ProjectViewProjectNode" />
-              <item name="php_games" type="462c0819:PsiDirectoryNode" />
-              <item name="cardGame" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="php_games" type="b2602c69:ProjectViewProjectNode" />
-              <item name="php_games" type="462c0819:PsiDirectoryNode" />
-              <item name="Hangman" type="462c0819:PsiDirectoryNode" />
+              <item name="hangman" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="php_games" type="b2602c69:ProjectViewProjectNode" />
@@ -136,7 +155,7 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="hangman" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/Hangman/Hangman.php">
+    <configuration name="hangman" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/hangman/Hangman.php">
       <method v="2" />
     </configuration>
   </component>
@@ -150,12 +169,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1558002270719</updated>
-      <workItem from="1558002271798" duration="12770000" />
+      <workItem from="1558002271798" duration="13145000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12770000" />
+    <option name="totallyTimeSpent" value="13145000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -171,7 +190,7 @@
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.25" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" weight="0.3293348" />
       <window_info anchor="bottom" id="Database Changes" order="1" />
@@ -179,8 +198,8 @@
       <window_info anchor="bottom" id="Version Control" order="3" />
       <window_info anchor="bottom" id="Docker" order="4" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="5" />
-      <window_info anchor="bottom" id="Find" order="6" />
-      <window_info active="true" anchor="bottom" id="Run" order="7" visible="true" weight="0.3293348" />
+      <window_info anchor="bottom" id="Find" order="6" weight="0.3293348" />
+      <window_info anchor="bottom" id="Run" order="7" weight="0.3293348" />
       <window_info anchor="bottom" id="Debug" order="8" weight="0.3991276" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
@@ -212,13 +231,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shipGame/Ship.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="69" column="38" lean-forward="true" selection-start-line="69" selection-start-column="38" selection-end-line="69" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/shipGame/example.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -233,6 +245,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/hangman/wordlist.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" column="5" lean-forward="true" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hangman/Word.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hangman/Hangman.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="36" lean-forward="true" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/shipGame/Generate.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -240,24 +273,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Hangman/wordlist.txt">
+    <entry file="file://$PROJECT_DIR$/shipGame/Ship.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" column="5" lean-forward="true" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Hangman/Word.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Hangman/Hangman.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="42" column="36" lean-forward="true" selection-start-line="42" selection-start-column="36" selection-end-line="42" selection-end-column="36" />
+        <state relative-caret-position="610">
+          <caret line="94" lean-forward="true" selection-start-line="94" selection-end-line="94" />
         </state>
       </provider>
     </entry>
