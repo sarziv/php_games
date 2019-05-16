@@ -36,11 +36,11 @@ class Hangman extends Word
 
         while (strpos($hidden, '_') !== false) {
             if ($lives == 0) {
-                echo 'Game freaking over!';
+                echo 'Game over!'.PHP_EOL;
+                echo 'Word was: '.$word;
                 exit;
             }
             echo "Enter letter: " . PHP_EOL;
-
             $input = readline();
             if (in_array($input,$guessList)) {
                 echo 'You guessed that letter: '. $input.PHP_EOL;
@@ -59,7 +59,7 @@ class Hangman extends Word
 
                 } else {
                     echo 'Not found ' . $lives . " lives left." . PHP_EOL;
-                    $lives = $lives - 1;
+                    $lives--;
                 }
                 echo $hidden . PHP_EOL;
             }
