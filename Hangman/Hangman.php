@@ -6,7 +6,7 @@ class Hangman extends Word
 {
     public function __construct()
     {
-        echo "Let's play Hangman!".PHP_EOL;
+        echo "Let's play Hangman!" . PHP_EOL;
     }
 
     public function hideLetter($hide)
@@ -27,21 +27,44 @@ class Hangman extends Word
 
     public function HangmanLogic()
     {
-        echo $word = $this->wordToGuess().PHP_EOL;
-        print_r($chars = $this->splitWord($word));
-        echo $hidden = $this->hideLetter($word).PHP_EOL;
+        $lives = 5;
+        $guessList = array();
+        $word = $this->wordToGuess() . PHP_EOL;
+        $chars = $this->splitWord($word);
+        echo $hidden = $this->hideLetter($word) . PHP_EOL;
 
-        while(!sizeof($chars) == 0){
-            echo "Enter letter: " .PHP_EOL;
+
+        while (strpos($hidden, '_') !== false) {
+            if ($lives == 0) {
+                echo 'Game freaking over!';
+                exit;
+            }
+            echo "Enter letter: " . PHP_EOL;
+
             $input = readline();
-            echo "Guessing: ".$input.PHP_EOL;
-            if(in_array($input,$chars)){
-                echo 'Found!';
-            }else{
-                echo 'Not found';
+            if (in_array($input,$guessList)) {
+                echo 'You guessed that letter: '. $input.PHP_EOL;
+            } else {
+                array_push($guessList, $input);
+                echo "Guessing: " . $input . PHP_EOL;
+                if (in_array($input, $chars)) {
+                    echo 'Found!' . PHP_EOL;
+                    $i = 0;
+                    foreach ($chars as $guess) {
+                        if ($guess == $input) {
+                            $hidden[$i] = $input;
+                        }
+                        $i++;
+                    }
+
+                } else {
+                    echo 'Not found ' . $lives . " lives left." . PHP_EOL;
+                    $lives = $lives - 1;
+                }
+                echo $hidden . PHP_EOL;
             }
         }
-
+        echo 'You won!';
     }
 
 }
