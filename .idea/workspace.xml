@@ -2,16 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="068be049-608b-4e31-be1a-5bd784f60ac4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/MazeGenerator/Maze_draw.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MazeGenerator/Maze_generate.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/small_problems/1.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hangman/.idea/Hangman.iml" beforeDir="false" afterPath="$PROJECT_DIR$/hangman/.idea/Hangman.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hangman/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hangman/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hangman/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hangman/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hangman/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hangman/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hangman/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hangman/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hangman/Hangman.php" beforeDir="false" afterPath="$PROJECT_DIR$/hangman/Hangman.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hangman/Word.php" beforeDir="false" afterPath="$PROJECT_DIR$/hangman/Word.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hangman/wordlist.txt" beforeDir="false" afterPath="$PROJECT_DIR$/hangman/wordlist.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shipGame/Ship.php" beforeDir="false" afterPath="$PROJECT_DIR$/shipGame/Ship.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,50 +19,42 @@
     </execution>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/hangman/wordlist.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="544">
-              <caret line="32" column="5" lean-forward="true" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+              <caret line="32" column="5" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hangman/Hangman.php">
+        <entry file="file://$PROJECT_DIR$/MazeGenerator/Maze_generate.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="36" lean-forward="true" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
+            <state relative-caret-position="170">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/shipGame/Ship.php">
+        <entry file="file://$PROJECT_DIR$/small_problems/1.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="610">
-              <caret line="94" lean-forward="true" selection-start-line="94" selection-end-line="94" />
+            <state relative-caret-position="136">
+              <caret line="8" column="39" lean-forward="true" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shipGame/Generate.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="40" lean-forward="true" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/asciiDraw/drawTable.php">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hangman/Word.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/MazeGenerator/Maze_draw.php">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -83,22 +69,15 @@
         <option value="$PROJECT_DIR$/Hangman/Hangman.php" />
         <option value="$PROJECT_DIR$/hangman/Hangman.php" />
         <option value="$PROJECT_DIR$/shipGame/Ship.php" />
+        <option value="$PROJECT_DIR$/MazeGenerator/Maze_generate.php" />
+        <option value="$PROJECT_DIR$/small_problems/1.php" />
       </list>
     </option>
+  </component>
+  <component name="PhpServers">
+    <servers />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.2" />
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/php_games.iml" />
-        <option value="$PROJECT_DIR$/.idea/misc.xml" />
-        <option value="$PROJECT_DIR$/.idea/modules.xml" />
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-        <option value="$PROJECT_DIR$/.idea/dictionaries/sarunas.xml" />
-        <option value="$PROJECT_DIR$/.idea/php.xml" />
-      </list>
-    </option>
-  </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="88" />
     <option name="y" value="27" />
@@ -110,6 +89,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -120,27 +100,24 @@
             <path>
               <item name="php_games" type="b2602c69:ProjectViewProjectNode" />
               <item name="php_games" type="462c0819:PsiDirectoryNode" />
-              <item name="hangman" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="php_games" type="b2602c69:ProjectViewProjectNode" />
-              <item name="php_games" type="462c0819:PsiDirectoryNode" />
-              <item name="shipGame" type="462c0819:PsiDirectoryNode" />
+              <item name="small_problems" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Hangman/Hangman.php" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/small_problems/1.php" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.smartKeys" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -155,7 +132,7 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="hangman" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/hangman/Hangman.php">
+    <configuration name="hangman" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/small_problems/1.php">
       <method v="2" />
     </configuration>
   </component>
@@ -169,12 +146,13 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1558002270719</updated>
-      <workItem from="1558002271798" duration="13145000" />
+      <workItem from="1558002271798" duration="13751000" />
+      <workItem from="1558082323936" duration="2141000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13145000" />
+    <option name="totallyTimeSpent" value="15892000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -190,7 +168,7 @@
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.25277162" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" weight="0.3293348" />
       <window_info anchor="bottom" id="Database Changes" order="1" />
@@ -214,9 +192,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/asciiDraw/drawTable.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/cardGame/Card.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-423">
@@ -245,10 +220,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hangman/wordlist.txt">
+    <entry file="file://$PROJECT_DIR$/shipGame/Generate.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" column="5" lean-forward="true" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+        <state relative-caret-position="68">
+          <caret line="4" column="40" lean-forward="true" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
         </state>
       </provider>
     </entry>
@@ -259,24 +234,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/shipGame/Ship.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="833">
+          <caret line="94" lean-forward="true" selection-start-line="94" selection-end-line="94" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/hangman/Hangman.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
-          <caret line="11" column="36" lean-forward="true" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
+          <caret line="11" column="36" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shipGame/Generate.php">
+    <entry file="file://$PROJECT_DIR$/hangman/wordlist.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="40" lean-forward="true" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
+        <state relative-caret-position="544">
+          <caret line="32" column="5" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shipGame/Ship.php">
+    <entry file="file://$PROJECT_DIR$/MazeGenerator/Maze_draw.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/asciiDraw/drawTable.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MazeGenerator/Maze_generate.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="610">
-          <caret line="94" lean-forward="true" selection-start-line="94" selection-end-line="94" />
+        <state relative-caret-position="170">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/small_problems/1.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="39" lean-forward="true" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
         </state>
       </provider>
     </entry>
